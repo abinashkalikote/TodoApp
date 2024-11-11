@@ -1,0 +1,14 @@
+﻿@model TodoVm
+@{
+    ViewData["Title"] = "Todo App";
+}
+
+
+<h1>Add Todo</h1>
+<form method="post">
+    <input asp-for="TaskTitle" placeholder="Task Title"/>
+    <br/>
+    <input asp-for="Description" placeholder="Description"/>
+    <br/>
+    <button type="submit">Add Todo</button>
+</form>
