@@ -1,3 +1,5 @@
+using TODOApp.Repositories;
+using TODOApp.Repositories.Interfaces;
 using TODOApp.Services;
 using TODOApp.Services.Interfaces;
 
@@ -8,6 +10,7 @@ builder.Services.AddControllersWithViews();
 
 //Scoped, Transient, Singleton
 builder.Services.AddScoped<ITodoService, TodoService>();
+builder.Services.AddScoped<ITodoRepository, TodoRepository>();
 
 var app = builder.Build();
 

@@ -28,3 +28,4 @@ C:\Users\HP\Desktop\Intern\TODOApp\TODOApp\obj\Debug\net8.0\refint\TODOApp.dll
 C:\Users\HP\Desktop\Intern\TODOApp\TODOApp\obj\Debug\net8.0\TODOApp.pdb
 C:\Users\HP\Desktop\Intern\TODOApp\TODOApp\obj\Debug\net8.0\TODOApp.genruntimeconfig.cache
 C:\Users\HP\Desktop\Intern\TODOApp\TODOApp\obj\Debug\net8.0\ref\TODOApp.dll
+C:\Users\HP\Desktop\Intern\TODOApp\TODOApp\obj\Debug\net8.0\TODOApp.sourcelink.json

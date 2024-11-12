@@ -1,0 +1,26 @@
+﻿@model List<TodoDto>
+@{
+    ViewData["Title"] = "Todos";
+}
+
+<h1>
+    List of Todo
+</h1>
+<hr />
+
+@if (Model is null || Model.Count() <= 0)
+{
+    <strong>There is not Todo.</strong>
+}
+else
+{
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <h6>@item.TaskTitle</h6>
+                <p>- @item.Description</p>
+            </li>
+        }
+    </ul>
+}
